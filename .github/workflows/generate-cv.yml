@@ -1,0 +1,48 @@
+name: Generate CV
+
+on:
+  push:
+    branches:
+      - development
+    paths-ignore:
+      - 'cv-jtv.pdf'
+      - 'cv-jtv.docx'
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Install pandoc and LaTeX
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y pandoc texlive-latex-base texlive-fonts-recommended texlive-extra-utils texlive-latex-extra
+
+      - name: Convert Markdown to PDF
+        run: pandoc cv-jtv.md -o cv-jtv.pdf
+
+      - name: Convert Markdown to DOCX
+        run: pandoc cv-jtv.md -o cv-jtv.docx
+
+      - name: Check for changes
+        id: verify-changed-files
+        run: |
+          if [ -n "$(git status --porcelain cv-jtv.pdf cv-jtv.docx)" ]; then
+            echo "files_changed=true" >> $GITHUB_OUTPUT
+          else
+            echo "files_changed=false" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Commit and push changes
+        if: steps.verify-changed-files.outputs.files_changed == 'true'
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add cv-jtv.pdf cv-jtv.docx
+          git commit -m "Update generated CV files [skip ci]"
+          git push
