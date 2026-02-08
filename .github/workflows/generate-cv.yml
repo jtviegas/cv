@@ -9,7 +9,7 @@ on:
       - 'cv-jtv.docx'
 
 jobs:
-  execute_pipeline:
+  generate:
     runs-on: ubuntu-24.04
     permissions:
       contents: write
