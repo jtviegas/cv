@@ -3,7 +3,7 @@
 ## João Tiago A. M. Viegas
 
 **Mobile**: +45 91 99 4431  
-**Address**: Hollænderdybet 26, 4tv, 2300 Copenhagen S, Copenhagen, Denmark  
+**Address**: 2300 Copenhagen S, Denmark  
 **Email**: jtviegas@gmail.com  
 **LinkedIn**: http://pt.linkedin.com/in/jtviegas/  
 **GitHub**: https://github.com/jtviegas, https://github.com/tgedr  
@@ -150,7 +150,7 @@
 ## Educational Qualifications
 
 ### Higher Diploma in Data Science and Analytics
-**Cork Institute of Technology**  
+**Cork Institute of Technology (Munster Technological University)**
 **Feb 2017 – Dec 2018**
 
 Subjects: Statistics & Mathematics, Computer Science and Data Science, Time Series, Multivariate Analysis, Data Mining & Knowledge Discovery, Data Visualization, Machine Learning, Deep Learning.
