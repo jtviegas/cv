@@ -1,3 +1,8 @@
+---
+geometry: "top=0.75in,bottom=0.75in,left=0.75in,right=0.75in"
+fontsize: 10pt
+---
+
 # Curriculum Vitae
 
 ## João Tiago A. M. Viegas
@@ -67,23 +72,11 @@
 **IBM, Cork, Ireland**  
 **Jan 2014 – Nov 2017**
 
-**IOA - Expert Advice**
-- Implemented microservices for a cognitive application leveraging orchestration of machine learning services
-- Developed web UI, bot, and Slack application for the cognitive application
+- Built microservices and web UI for a cognitive application (Watson NLP, machine learning orchestration)
+- Developed and maintained analytics components across Cloud and Smarter Infrastructure monitoring products
+- Conducted proof-of-concept experiments; analyzed algorithm performance on real-time data sets
 
-**Technologies & Methodologies**: Java, Dropwizard Framework, OpenNLP, Solr, Slack API, JavaScript, Node.js, Angular, HTML5, CSS, IBM Watson Retrieve & Rank, IBM Watson Natural Language Classifier, IBM Watson Conversation Service, Cloudant NoSQL DB, Git, IBM Bluemix, Cloud Foundry, IBM Bluemix DevOps Services.
-
-**Smart Cloud Analytics - Predictive Insights team**
-- Developed and maintained software components in on-premise and cloud-based agile environments
-- Researched and conducted proof-of-concept experiments with various technologies and open-source libraries
-- Analyzed and assessed algorithm performance on real-time data sets
-
-**Technologies & Methodologies**: Agile, Scrum, Java, WebSphere AS, Rational Team Concert, Design Patterns, Linux Bash Script, REST, Spring, MongoDB, Redis, Neo4j, DB2, Bluemix, R, Multithreading, Statistical Process Control, Node.js, Docker, Cloud Foundry.
-
-**Smart Cloud Application Performance Management team**
-- Maintained and implemented user stories and bug fixes in Cloud and Smarter Infrastructure monitoring solutions
-
-**Technologies & Methodologies**: Agile, Scrum, Java, WebSphere AS, Rational Team Concert, Python, Design Patterns, Linux Bash Script, Windows Scripting, REST, Spring.
+**Technologies & Methodologies**: Java, Dropwizard, Spring, Python, Node.js, Angular, IBM Watson, Cloudant, MongoDB, Redis, Docker, IBM Bluemix, Cloud Foundry, Statistical Process Control, R.
 
 ### Software Engineer
 **DeCare Systems, Cork, Ireland**  
@@ -98,54 +91,19 @@
 **Wincor Nixdorf, Lisbon, Portugal**  
 **Aug 2008 – Jul 2013**
 
-- Developed a retail web application
+- Developed retail web application; designed and built a fiscal library component ensuring legal compliance and certification support
+- Handled international roll-out, support, and maintenance; developed a mobile & automated checkout solution for a Portuguese retailer
 
-**Technologies & Methodologies**: Java, Spring, Spring MVC, jQuery, JPA/Hibernate, Derby, UML, Design Patterns.
+**Technologies & Methodologies**: Java, Spring MVC, JPA/Hibernate, C, C#, JavaScript, PostgreSQL, MS SQL Server, Derby, Linux, Bash, UML, TDD, JUnit.
 
-- Designed and developed a fiscal library component for WN retail software solutions, ensuring legal compliance; included requirements analysis and certification support
+### Early Career
+**Various companies, Portugal & Ireland**  
+**Jan 2004 – Aug 2008**
 
-**Technologies & Methodologies**: Linux, Windows, Java, C, C#, Bash, SQL, UML, PostgreSQL, MS SQL Server, Design Patterns, Test Driven Development, automated unit tests (JUnit) and integration test cases.
-
-- Handled roll-out, support, and maintenance of retail software solutions for international customers (Portugal, Angola, Algeria); performed analysis, specification, configuration, maintenance, support, and training for standard and custom developments
-
-**Technologies & Methodologies**: Linux, Java, C, Bash, Cocoon Framework (J2EE), UML, PostgreSQL, SQL, Design Patterns, Test Driven Development, automated unit tests (JUnit) and integration test cases.
-
-- Executed customer specifications for customizing and rolling out a mobile & automated checkout solution in a Portuguese retailer; developed online data synchronization scripts
-
-**Technologies & Methodologies**: UML, Java, Linux, Windows, Derby DB, Bash and Windows Scripting.
-
-### Software Engineer
-**EID, S.A., Almada, Portugal**  
-**Jan 2007 – Aug 2008**
-
-- Implemented a GUI Management Console for setting up Routing Tables in an Organization MMHS infrastructure
-
-**Technologies & Methodologies**: Java, Swing API, UML, Design Patterns, RUP, Test Driven Development, automated unit tests (JUnit), pair programming, and integration test cases.
-
-### Software Consultant
-**AXA Insurances, Lisbon, Portugal**  
-**Jan 2006 – Jan 2007**
-
-- Developed call-centre script-guide software
-- Performed maintenance on organizational process solutions for desktop/rich-client and web applications
-
-**Technologies & Methodologies**: VB6, COM, C#, SQL, UML, XML, MS Exchange CDO & MAPI, ADO & ADO.Net, Log4Net, NUnit, NAnt, Office Automation Objects, Oracle 9i, MS Access, MS SQL Server, Design Patterns, Test Driven Development.
-
-### Consulting Engineer
-**Care4IT, Lisbon, Portugal**  
-**Oct 2004 – Jan 2006**
-
-- Analyzed, designed, and implemented a health care management solution for a specific pathology care process
-- Analyzed, designed, and implemented a custom software solution for pathology care process monitoring and clinical guideline adherence
-- Conducted consulting analysis for an integrated stock management solution in healthcare; assessed technologies and suppliers; mapped processes and performed workflow analysis
-
-**Technologies & Methodologies**: UML, Java, Swing API, MS SQL Server, Design Patterns, Test Driven Development, automated unit testing (JUnit); UML, VB6, MS Access.
-
-### Quality Engineer Internship
-**Sival, Leiria, Portugal**  
-**Apr 2004 – Oct 2004**
-
-- Implemented Statistical Process Control on PVC tubes in a short-run production process, applying 4 types of control charts including multivariate analysis (final year project)
+- EID S.A. (2007–2008): Implemented GUI Management Console for routing tables in an MMHS infrastructure (Java, Swing, UML, TDD)
+- AXA Insurances (2006–2007): Developed call-centre script-guide software and maintained organizational process solutions (VB6, C#, SQL, Oracle)
+- Care4IT (2004–2006): Analyzed, designed, and implemented healthcare management solutions (Java, Swing, SQL)
+- Sival, Quality Engineer internship (2004): Implemented Statistical Process Control on production processes (SPC, control charts, multivariate analysis)
 
 ## Educational Qualifications
 
