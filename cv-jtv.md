@@ -127,4 +127,4 @@ Subjects: Production Management, Industrial Logistics, Quality Engineering, Ergo
 
 ## References
 
-Excellent references available on request.
+References available on request.
