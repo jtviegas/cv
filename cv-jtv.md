@@ -1,6 +1,8 @@
 ---
 geometry: "top=0.75in,bottom=0.75in,left=0.75in,right=0.75in"
 fontsize: 10pt
+header-includes:
+  - \usepackage{needspace}
 ---
 
 # Curriculum Vitae
@@ -96,6 +98,7 @@ fontsize: 10pt
 
 **Technologies & Methodologies**: Java, Spring MVC, JPA/Hibernate, C, C#, JavaScript, PostgreSQL, MS SQL Server, Derby, Linux, Bash, UML, TDD, JUnit.
 
+\needspace{14\baselineskip}
 ### Early Career
 **Various companies, Portugal & Ireland**  
 **Jan 2004 – Aug 2008**
